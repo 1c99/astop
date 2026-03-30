@@ -1,0 +1,97 @@
+Screen {
+    background: rgb(18, 18, 24);
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    min-width: 120;
+}
+
+#main-vertical {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#cpu-panel {
+    height: auto;
+    border: round rgb(90, 180, 90);
+    border-title-color: rgb(90, 180, 90);
+    padding: 0 0 0 1;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+#gpu-panel {
+    height: auto;
+    border: round rgb(200, 140, 50);
+    border-title-color: rgb(200, 140, 50);
+    padding: 0 0 0 1;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+#ane-panel {
+    height: auto;
+    border: round rgb(140, 90, 220);
+    border-title-color: rgb(140, 90, 220);
+    padding: 0 0 0 1;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+#bottom-row {
+    height: auto;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#left-stack {
+    width: 2fr;
+    height: auto;
+    margin: 0;
+    overflow: hidden;
+}
+
+#mem-panel {
+    border: round rgb(100, 100, 200);
+    border-title-color: rgb(100, 100, 200);
+    padding: 0 0 0 1;
+    height: auto;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+#io-panel {
+    border: round rgb(100, 180, 180);
+    border-title-color: rgb(100, 180, 180);
+    padding: 0 0 0 1;
+    height: auto;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+#pwr-panel {
+    border: round rgb(180, 100, 100);
+    border-title-color: rgb(180, 100, 100);
+    padding: 0 0 0 1;
+    height: auto;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+#proc-scroll {
+    width: 3fr;
+    height: 100%;
+    border: round rgb(130, 130, 130);
+    border-title-color: rgb(130, 130, 130);
+    padding: 0 0 0 1;
+    margin: 0;
+}
+
+#process-table {
+    height: auto;
+    overflow-x: hidden;
+}
